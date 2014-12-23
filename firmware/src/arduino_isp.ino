@@ -105,11 +105,13 @@ uint8_t error_inc() {
   if (error != 0xFF) {
     error++;
   }
+  return error;
 }
 
 // Reset error counter to 0
 uint8_t error_rst() {
   error = 0;
+  return error;
 }
 
 void loop(void) {
