@@ -14,9 +14,9 @@
 
 // Pin definitions needed besides the standard SCK, MISO, & MOSI pins for SPI
 #define RESET     10
-#define LED_HB    9
-#define LED_ERR   8
-#define LED_PMODE 7
+#define LED_HB    4
+#define LED_ERR   3
+#define LED_PMODE 2
 
 // Do we flash the programming light while programming?
 #define PROG_FLICKER true
