@@ -8,20 +8,20 @@
 </settings>
 <grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="2" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,17 +39,17 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -7430,15 +7430,15 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 </class>
 </classes>
 <parts>
-<part name="C1" library="A_butts" deviceset="CAPACITOR-CERAMIC" device="025-024X044" value="1uF"/>
+<part name="C1" library="A_butts" deviceset="CAPACITOR-CERAMIC" device="C0603" value="0.1uF"/>
 <part name="BUSY" library="A_butts" deviceset="LED" device="3MM" value="YELLOW"/>
 <part name="ERR" library="A_butts" deviceset="LED" device="3MM" value="RED"/>
 <part name="HI!" library="A_butts" deviceset="LED" device="3MM" value="GREEN"/>
-<part name="R4" library="A_butts" deviceset="RESISTOR" device="PTH-AXIAL-6.35MM" value="10k"/>
+<part name="R4" library="A_butts" deviceset="RESISTOR" device="PTH-AXIAL-5.08MM" value="10k"/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C2" library="A_butts" deviceset="CAPACITOR-CERAMIC" device="025-024X044" value="1uF"/>
+<part name="C2" library="A_butts" deviceset="CAPACITOR-CERAMIC" device="C0603" value="0.1uF"/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY16" library="A_butts" deviceset="VCC" device=""/>
 <part name="SUPPLY17" library="A_butts" deviceset="VCC" device=""/>
@@ -7452,10 +7452,10 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <part name="SUPPLY8" library="A_butts" deviceset="VCC" device=""/>
 <part name="ISP" library="A_butts" deviceset="AVR_SPI_PRG_6" device="PTH-SHROUD" value="AVR_SPI_PRG_6PTH-SHROUD"/>
 <part name="!HOSTRST" library="A_butts" deviceset="M02" device="PTH"/>
-<part name="C3" library="A_butts" deviceset="CAPACITOR-CERAMIC" device="025-024X044" value="0.1uF"/>
+<part name="C3" library="A_butts" deviceset="CAPACITOR-CERAMIC" device="C0603" value="0.1uF"/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="A_butts" deviceset="VCC" device=""/>
-<part name="C4" library="A_butts" deviceset="CAPACITOR-CERAMIC" device="025-024X044" value="0.1uF"/>
+<part name="C4" library="A_butts" deviceset="CAPACITOR-CERAMIC" device="C0603" value="0.1uF"/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY7" library="A_butts" deviceset="VCC" device=""/>
 <part name="R1" library="A_butts" deviceset="RESISTOR" device="PTH-AXIAL-6.35MM" value="330R"/>
@@ -7484,16 +7484,16 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <part name="IC5" library="A_butts" deviceset="74*125" device="SOIC14" value="74HC125"/>
 <part name="SUPPLY12" library="A_butts" deviceset="VCC" device=""/>
 <part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C5" library="A_butts" deviceset="CAPACITOR-CERAMIC" device="025-024X044" value="0.1uF"/>
+<part name="C5" library="A_butts" deviceset="CAPACITOR-CERAMIC" device="C0603" value="0.1uF"/>
 <part name="GND18" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY13" library="A_butts" deviceset="VCC" device=""/>
-<part name="C6" library="A_butts" deviceset="CAPACITOR-CERAMIC" device="025-024X044" value="0.1uF"/>
+<part name="C6" library="A_butts" deviceset="CAPACITOR-CERAMIC" device="C0603" value="0.1uF"/>
 <part name="GND19" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY14" library="A_butts" deviceset="VCC" device=""/>
-<part name="C7" library="A_butts" deviceset="CAPACITOR-CERAMIC" device="025-024X044" value="0.1uF"/>
+<part name="C7" library="A_butts" deviceset="CAPACITOR-CERAMIC" device="025-024X044" value="1uF"/>
 <part name="GND20" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY15" library="A_butts" deviceset="VCC" device=""/>
-<part name="C8" library="A_butts" deviceset="CAPACITOR-CERAMIC" device="025-024X044" value="0.1uF"/>
+<part name="C8" library="A_butts" deviceset="CAPACITOR-CERAMIC" device="C0805" value="1uF"/>
 <part name="GND21" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY18" library="A_butts" deviceset="VCC" device=""/>
 </parts>
@@ -8589,17 +8589,6 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 </sheet>
 </sheets>
 <errors>
-<approved hash="206,1,256.54,106.68,MISO,,,,,"/>
-<approved hash="206,1,256.54,93.98,MISO,,,,,"/>
-<approved hash="206,1,256.54,48.26,MISO,,,,,"/>
-<approved hash="206,1,256.54,35.56,MISO,,,,,"/>
-<approved hash="206,1,256.54,111.76,Z1,,,,,"/>
-<approved hash="206,1,256.54,99.06,Z1,,,,,"/>
-<approved hash="206,1,256.54,40.64,Z1,,,,,"/>
-<approved hash="206,1,256.54,96.52,Z25,,,,,"/>
-<approved hash="206,1,256.54,38.1,Z25,,,,,"/>
-<approved hash="206,1,256.54,91.44,Z27,,,,,"/>
-<approved hash="206,1,256.54,33.02,Z27,,,,,"/>
 <approved hash="113,1,99.06,124.693,SHIELD,,,,,"/>
 </errors>
 </schematic>
