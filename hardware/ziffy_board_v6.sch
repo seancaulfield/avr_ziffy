@@ -7453,9 +7453,9 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <part name="C4" library="A_butts" deviceset="CAPACITOR-CERAMIC" device="025-024X044" value="0.1uF"/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY7" library="A_butts" deviceset="VCC" device=""/>
-<part name="R1" library="A_butts" deviceset="RESISTOR" device="R0805" value="330R"/>
-<part name="R2" library="A_butts" deviceset="RESISTOR" device="R0805" value="330R"/>
-<part name="R3" library="A_butts" deviceset="RESISTOR" device="R0805" value="330R"/>
+<part name="R1" library="A_butts" deviceset="RESISTOR" device="PTH-AXIAL-5.08MM" value="330R"/>
+<part name="R2" library="A_butts" deviceset="RESISTOR" device="PTH-AXIAL-5.08MM" value="330R"/>
+<part name="R3" library="A_butts" deviceset="RESISTOR" device="PTH-AXIAL-5.08MM" value="330R"/>
 <part name="TARGET_RESET" library="A_butts" deviceset="SPST-NO-TACT" device="6MM-PTH-SMALL-PADS" value="SPST-NO-TACT6MM-PTH-SMALL-PADS"/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="IC1" library="A_butts" deviceset="74*125" device="SOIC14" value="74HC125"/>

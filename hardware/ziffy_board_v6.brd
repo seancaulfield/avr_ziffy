@@ -226,17 +226,6 @@ grid 2.5 mm, outline 2.4 x 4.4 mm</description>
 <wire x1="0.9525" y1="0.508" x2="1.143" y2="0" width="0.1524" layer="21"/>
 <wire x1="1.143" y1="0" x2="1.524" y2="0" width="0.1524" layer="21"/>
 </package>
-<package name="R0805">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;</description>
-<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
-<smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
-<smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
-<text x="-1.778" y="0" size="0.4064" layer="25" font="vector" ratio="12" rot="R90" align="bottom-center">&gt;NAME</text>
-<text x="1.778" y="0" size="0.4064" layer="27" font="vector" ratio="12" rot="R90" align="top-center">&gt;VALUE</text>
-</package>
 <package name="DTS-6-SMALL-PADS">
 <wire x1="2.49" y1="3" x2="-2.49" y2="3" width="0.1524" layer="21"/>
 <wire x1="3" y1="-1.2" x2="3" y2="1.2" width="0.1524" layer="21"/>
@@ -840,14 +829,14 @@ Please make sure your boards conform to these design rules.</description>
 </autorouter>
 <elements>
 <element name="C1" library="A_butts" package="C025-024X044" value="0.1uF" x="16" y="44.27" rot="R90"/>
-<element name="BUSY" library="A_butts" package="LED3MM" value="YELLOW" x="46.5" y="46.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="46.5" y="48.843" size="0.8" layer="25" font="vector" ratio="12" rot="SR180" align="top-center"/>
+<element name="BUSY" library="A_butts" package="LED3MM" value="YELLOW" x="37.5" y="46.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="37.5" y="48.8" size="0.8" layer="25" font="vector" ratio="12" rot="SR180" align="top-center"/>
 </element>
-<element name="ERR" library="A_butts" package="LED3MM" value="RED" x="42" y="46.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="42" y="48.843" size="0.8" layer="25" font="vector" ratio="12" rot="SR180" align="top-center"/>
+<element name="ERR" library="A_butts" package="LED3MM" value="RED" x="41.8" y="46.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="41.8" y="48.8" size="0.8" layer="25" font="vector" ratio="12" rot="SR180" align="top-center"/>
 </element>
-<element name="HI!" library="A_butts" package="LED3MM" value="GREEN" x="37.5" y="46.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="37.5" y="48.843" size="0.8" layer="25" font="vector" ratio="12" rot="SR180" align="top-center"/>
+<element name="HI!" library="A_butts" package="LED3MM" value="GREEN" x="46.1" y="46.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="46.076090625" y="48.802940625" size="0.8" layer="25" font="vector" ratio="12" rot="SR180" align="top-center"/>
 </element>
 <element name="R4" library="A_butts" package="RESISTOR-AXIAL-PTH-5.08MM" value="10k" x="47" y="17" rot="R90"/>
 <element name="C2" library="A_butts" package="C025-024X044" value="0.1uF" x="16" y="35.5" rot="R90"/>
@@ -861,9 +850,18 @@ Please make sure your boards conform to these design rules.</description>
 <element name="!HOSTRST" library="A_butts" package="1X02" value="M02PTH" x="50.25" y="11.59" rot="R180"/>
 <element name="C3" library="A_butts" package="C025-024X044" value="0.1uF" x="16" y="25.5" rot="R90"/>
 <element name="C4" library="A_butts" package="C025-024X044" value="0.1uF" x="16" y="13.97" rot="R90"/>
-<element name="R1" library="A_butts" package="R0805" value="330R" x="46.5" y="42" rot="R270"/>
-<element name="R2" library="A_butts" package="R0805" value="330R" x="42" y="42" rot="R270"/>
-<element name="R3" library="A_butts" package="R0805" value="330R" x="37.5" y="42" rot="R270"/>
+<element name="R1" library="A_butts" package="RESISTOR-AXIAL-PTH-5.08MM" value="330R" x="38" y="42.3" smashed="yes" rot="R225">
+<attribute name="NAME" x="37.51446875" y="42.71446875" size="0.4064" layer="25" font="vector" ratio="12" rot="R45" align="bottom-center"/>
+<attribute name="VALUE" x="38.485528125" y="41.785528125" size="0.4064" layer="27" font="vector" ratio="12" rot="R45" align="top-center"/>
+</element>
+<element name="R2" library="A_butts" package="RESISTOR-AXIAL-PTH-5.08MM" value="330R" x="42.1" y="42.3" smashed="yes" rot="R225">
+<attribute name="NAME" x="41.68553125" y="42.81446875" size="0.4064" layer="25" font="vector" ratio="12" rot="R45" align="bottom-center"/>
+<attribute name="VALUE" x="42.585528125" y="41.785528125" size="0.4064" layer="27" font="vector" ratio="12" rot="R45" align="top-center"/>
+</element>
+<element name="R3" library="A_butts" package="RESISTOR-AXIAL-PTH-5.08MM" value="330R" x="46.2" y="42.3" smashed="yes" rot="R225">
+<attribute name="NAME" x="45.78553125" y="42.81446875" size="0.4064" layer="25" font="vector" ratio="12" rot="R45" align="bottom-center"/>
+<attribute name="VALUE" x="46.685528125" y="41.785528125" size="0.4064" layer="27" font="vector" ratio="12" rot="R45" align="top-center"/>
+</element>
 <element name="TARGET_RESET" library="A_butts" package="DTS-6-SMALL-PADS" value="SPST-NO-TACT6MM-PTH-SMALL-PADS" x="40" y="5" rot="R90"/>
 <element name="IC1" library="A_butts" package="SO14" value="74HC125" x="10" y="45.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="4.526" y="45.5" size="0.6096" layer="25" font="vector" ratio="12" rot="R270" align="bottom-center"/>
@@ -900,9 +898,9 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="ISP" pad="6"/>
 <contactref element="C1" pad="2"/>
 <contactref element="C2" pad="2"/>
-<contactref element="R1" pad="2"/>
-<contactref element="R2" pad="2"/>
-<contactref element="R3" pad="2"/>
+<contactref element="R1" pad="P$2"/>
+<contactref element="R2" pad="P$2"/>
+<contactref element="R3" pad="P$2"/>
 <contactref element="SHIELD" pad="GND@1"/>
 <contactref element="SHIELD" pad="GND@0"/>
 <contactref element="C3" pad="2"/>
@@ -1089,8 +1087,10 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="2" y1="30.55" x2="3.5" y2="32.05" width="0.2" layer="16"/>
 <wire x1="3.5" y1="32.05" x2="3.5" y2="44.7" width="0.2" layer="16"/>
 <wire x1="3.5" y1="44.7" x2="7.2" y2="48.4" width="0.2" layer="16"/>
-<wire x1="7.2" y1="48.4" x2="36.87" y2="48.4" width="0.2" layer="16"/>
-<wire x1="36.87" y1="48.4" x2="37.5" y2="47.77" width="0.2" layer="16"/>
+<wire x1="7.2" y1="48.4" x2="35.4" y2="48.4" width="0.2" layer="16"/>
+<wire x1="35.4" y1="48.4" x2="36" y2="49" width="0.2" layer="16"/>
+<wire x1="36" y1="49" x2="44.87" y2="49" width="0.2" layer="16"/>
+<wire x1="44.87" y1="49" x2="46.1" y2="47.77" width="0.2" layer="16"/>
 </signal>
 <signal name="ERROR">
 <contactref element="ERR" pad="A"/>
@@ -1098,10 +1098,10 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="2" y1="26.74" x2="3.9" y2="28.64" width="0.2" layer="16"/>
 <wire x1="3.9" y1="28.64" x2="3.9" y2="44.6" width="0.2" layer="16"/>
 <wire x1="3.9" y1="44.6" x2="7.3" y2="48" width="0.2" layer="16"/>
-<wire x1="7.3" y1="48" x2="34.5" y2="48" width="0.2" layer="16"/>
-<wire x1="34.5" y1="48" x2="36" y2="46.5" width="0.2" layer="16"/>
-<wire x1="36" y1="46.5" x2="40.73" y2="46.5" width="0.2" layer="16"/>
-<wire x1="40.73" y1="46.5" x2="42" y2="47.77" width="0.2" layer="16"/>
+<wire x1="7.3" y1="48" x2="35" y2="48" width="0.2" layer="16"/>
+<wire x1="35" y1="48" x2="36.5" y2="46.5" width="0.2" layer="16"/>
+<wire x1="36.5" y1="46.5" x2="40.53" y2="46.5" width="0.2" layer="16"/>
+<wire x1="40.53" y1="46.5" x2="41.8" y2="47.77" width="0.2" layer="16"/>
 </signal>
 <signal name="BUSY">
 <contactref element="BUSY" pad="A"/>
@@ -1109,10 +1109,11 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="2" y1="24.2" x2="4.3" y2="26.5" width="0.2" layer="16"/>
 <wire x1="4.3" y1="26.5" x2="4.3" y2="44.5" width="0.2" layer="16"/>
 <wire x1="4.3" y1="44.5" x2="7.4" y2="47.6" width="0.2" layer="16"/>
-<wire x1="7.4" y1="47.6" x2="32.9" y2="47.6" width="0.2" layer="16"/>
-<wire x1="32.9" y1="47.6" x2="36.5" y2="44" width="0.2" layer="16"/>
-<wire x1="36.5" y1="44" x2="42.73" y2="44" width="0.2" layer="16"/>
-<wire x1="42.73" y1="44" x2="46.5" y2="47.77" width="0.2" layer="16"/>
+<wire x1="7.4" y1="47.6" x2="31.9" y2="47.6" width="0.2" layer="16"/>
+<wire x1="31.9" y1="47.6" x2="32.5" y2="47" width="0.2" layer="16"/>
+<via x="32.5" y="47" extent="1-16" drill="0.3302"/>
+<wire x1="32.5" y1="47" x2="36.73" y2="47" width="0.2" layer="1"/>
+<wire x1="36.73" y1="47" x2="37.5" y2="47.77" width="0.2" layer="1"/>
 </signal>
 <signal name="VCC">
 <contactref element="SHIELD" pad="5V"/>
@@ -1185,18 +1186,21 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="N$1">
 <contactref element="BUSY" pad="K"/>
-<contactref element="R1" pad="1"/>
-<wire x1="46.5" y1="45.23" x2="46.5" y2="42.95" width="0.2" layer="1"/>
+<contactref element="R1" pad="P$1"/>
+<wire x1="37.5" y1="45.23" x2="38.6621" y2="45.23" width="0.2" layer="1"/>
+<wire x1="38.6621" y1="45.23" x2="39.79605" y2="44.09605" width="0.2" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="ERR" pad="K"/>
-<contactref element="R2" pad="1"/>
-<wire x1="42" y1="45.23" x2="42" y2="42.95" width="0.2" layer="1"/>
+<contactref element="R2" pad="P$1"/>
+<wire x1="41.8" y1="45.23" x2="42.7621" y2="45.23" width="0.2" layer="1"/>
+<wire x1="42.7621" y1="45.23" x2="43.89605" y2="44.09605" width="0.2" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="HI!" pad="K"/>
-<contactref element="R3" pad="1"/>
-<wire x1="37.5" y1="45.23" x2="37.5" y2="42.95" width="0.2" layer="1"/>
+<contactref element="R3" pad="P$1"/>
+<wire x1="46.1" y1="45.23" x2="46.8621" y2="45.23" width="0.2" layer="1"/>
+<wire x1="46.8621" y1="45.23" x2="47.99605" y2="44.09605" width="0.2" layer="1"/>
 </signal>
 <signal name="Z7">
 <contactref element="ZIF1" pad="7"/>
