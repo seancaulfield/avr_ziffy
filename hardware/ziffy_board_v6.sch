@@ -7431,9 +7431,9 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 </classes>
 <parts>
 <part name="C1" library="A_butts" deviceset="CAPACITOR-CERAMIC" device="C0603" value="0.1uF"/>
-<part name="BUSY" library="A_butts" deviceset="LED" device="1206" value="YELLOW"/>
-<part name="ERR" library="A_butts" deviceset="LED" device="1206" value="RED"/>
-<part name="HI!" library="A_butts" deviceset="LED" device="1206" value="GREEN"/>
+<part name="BUSY" library="A_butts" deviceset="LED" device="3MM" value="YELLOW"/>
+<part name="ERR" library="A_butts" deviceset="LED" device="3MM" value="RED"/>
+<part name="HI!" library="A_butts" deviceset="LED" device="3MM" value="GREEN"/>
 <part name="R4" library="A_butts" deviceset="RESISTOR" device="PTH-AXIAL-5.08MM" value="10k"/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -7930,6 +7930,11 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <wire x1="83.82" y1="137.16" x2="86.36" y2="137.16" width="0.1524" layer="91"/>
 <label x="83.82" y="137.16" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="SHIELD" gate="G$1" pin="D7"/>
+<wire x1="111.76" y1="121.92" x2="114.3" y2="121.92" width="0.1524" layer="91"/>
+<label x="114.3" y="121.92" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="ERROR" class="0">
 <segment>
@@ -7942,6 +7947,11 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <wire x1="83.82" y1="134.62" x2="86.36" y2="134.62" width="0.1524" layer="91"/>
 <label x="83.82" y="134.62" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="SHIELD" gate="G$1" pin="D8"/>
+<wire x1="111.76" y1="119.38" x2="114.3" y2="119.38" width="0.1524" layer="91"/>
+<label x="114.3" y="119.38" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="BUSY" class="0">
 <segment>
@@ -7953,6 +7963,11 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <pinref part="SHIELD" gate="G$1" pin="A3"/>
 <wire x1="86.36" y1="132.08" x2="83.82" y2="132.08" width="0.1524" layer="91"/>
 <label x="83.82" y="132.08" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="SHIELD" gate="G$1" pin="*D9"/>
+<wire x1="111.76" y1="116.84" x2="114.3" y2="116.84" width="0.1524" layer="91"/>
+<label x="114.3" y="116.84" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="VCC" class="0">
