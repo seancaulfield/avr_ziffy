@@ -828,7 +828,10 @@ Please make sure your boards conform to these design rules.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C1" library="A_butts" package="C025-024X044" value="0.1uF" x="16" y="44.27" rot="R90"/>
+<element name="C1" library="A_butts" package="C025-024X044" value="0.1uF" x="16" y="44.27" smashed="yes" rot="R90">
+<attribute name="NAME" x="16" y="41.984" size="0.4064" layer="25" font="vector" ratio="12" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="16" y="46.556" size="0.4064" layer="25" font="vector" ratio="12" align="bottom-center"/>
+</element>
 <element name="BUSY" library="A_butts" package="LED3MM" value="YELLOW" x="37.5" y="46.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="37.5" y="48.8" size="0.8" layer="25" font="vector" ratio="12" rot="SR180" align="top-center"/>
 </element>
@@ -838,58 +841,79 @@ Please make sure your boards conform to these design rules.</description>
 <element name="HI!" library="A_butts" package="LED3MM" value="GREEN" x="46.1" y="46.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="46.076090625" y="48.802940625" size="0.8" layer="25" font="vector" ratio="12" rot="SR180" align="top-center"/>
 </element>
-<element name="R4" library="A_butts" package="RESISTOR-AXIAL-PTH-5.08MM" value="10k" x="47" y="17" rot="R90"/>
-<element name="C2" library="A_butts" package="C025-024X044" value="0.1uF" x="16" y="35.5" rot="R90"/>
+<element name="R4" library="A_butts" package="RESISTOR-AXIAL-PTH-5.08MM" value="10k" x="47" y="17" smashed="yes" rot="R90">
+<attribute name="NAME" x="47" y="13.444" size="0.4064" layer="25" font="vector" ratio="12" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="47" y="20.556" size="0.4064" layer="25" font="vector" ratio="12" rot="R180" align="top-center"/>
+</element>
+<element name="C2" library="A_butts" package="C025-024X044" value="0.1uF" x="16" y="35.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="16" y="33.214" size="0.4064" layer="25" font="vector" ratio="12" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="16" y="37.786" size="0.4064" layer="25" font="vector" ratio="12" align="bottom-center"/>
+</element>
 <element name="HOST_RESET" library="A_butts" package="DTS-6-SMALL-PADS" value="SPST-NO-TACT6MM-PTH-SMALL-PADS" x="48" y="5" rot="R90"/>
 <element name="ZIF1" library="A_butts" package="ZIF28" value="ATMEGA328P" x="27.5" y="23.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="19.522" y="47.2" size="1.27" layer="21" font="vector" ratio="12" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="27.5" y="23.5" size="1" layer="27" font="vector" ratio="12" rot="SR270" align="center"/>
+<attribute name="VALUE" x="27.5" y="23.5" size="1" layer="25" font="vector" ratio="12" rot="SR270" align="center"/>
 </element>
 <element name="SHIELD" library="A_butts" package="ARDUINO_SHIELD_NOOUTLINE_INSIDE_SMALLER" value="YOUR MOTHER" x="2" y="48.33"/>
 <element name="ISP" library="A_butts" package="2X3-SHROUDED" value="AVR_SPI_PRG_6PTH-SHROUD" x="10.5" y="6.5" rot="R90"/>
 <element name="!HOSTRST" library="A_butts" package="1X02" value="M02PTH" x="50.25" y="11.59" rot="R180"/>
-<element name="C3" library="A_butts" package="C025-024X044" value="0.1uF" x="16" y="25.5" rot="R90"/>
-<element name="C4" library="A_butts" package="C025-024X044" value="0.1uF" x="16" y="13.97" rot="R90"/>
+<element name="C3" library="A_butts" package="C025-024X044" value="0.1uF" x="16" y="25.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="16" y="23.214" size="0.4064" layer="25" font="vector" ratio="12" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="16" y="27.786" size="0.4064" layer="25" font="vector" ratio="12" align="bottom-center"/>
+</element>
+<element name="C4" library="A_butts" package="C025-024X044" value="0.1uF" x="16" y="13.97" smashed="yes" rot="R90">
+<attribute name="NAME" x="16" y="11.684" size="0.4064" layer="25" font="vector" ratio="12" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="16" y="16.256" size="0.4064" layer="25" font="vector" ratio="12" align="bottom-center"/>
+</element>
 <element name="R1" library="A_butts" package="RESISTOR-AXIAL-PTH-5.08MM" value="330R" x="38" y="42.3" smashed="yes" rot="R225">
 <attribute name="NAME" x="37.51446875" y="42.71446875" size="0.4064" layer="25" font="vector" ratio="12" rot="R45" align="bottom-center"/>
-<attribute name="VALUE" x="38.485528125" y="41.785528125" size="0.4064" layer="27" font="vector" ratio="12" rot="R45" align="top-center"/>
+<attribute name="VALUE" x="38.485528125" y="41.785528125" size="0.4064" layer="25" font="vector" ratio="12" rot="R45" align="top-center"/>
 </element>
 <element name="R2" library="A_butts" package="RESISTOR-AXIAL-PTH-5.08MM" value="330R" x="42.1" y="42.3" smashed="yes" rot="R225">
 <attribute name="NAME" x="41.68553125" y="42.81446875" size="0.4064" layer="25" font="vector" ratio="12" rot="R45" align="bottom-center"/>
-<attribute name="VALUE" x="42.585528125" y="41.785528125" size="0.4064" layer="27" font="vector" ratio="12" rot="R45" align="top-center"/>
+<attribute name="VALUE" x="42.585528125" y="41.785528125" size="0.4064" layer="25" font="vector" ratio="12" rot="R45" align="top-center"/>
 </element>
 <element name="R3" library="A_butts" package="RESISTOR-AXIAL-PTH-5.08MM" value="330R" x="46.2" y="42.3" smashed="yes" rot="R225">
 <attribute name="NAME" x="45.78553125" y="42.81446875" size="0.4064" layer="25" font="vector" ratio="12" rot="R45" align="bottom-center"/>
-<attribute name="VALUE" x="46.685528125" y="41.785528125" size="0.4064" layer="27" font="vector" ratio="12" rot="R45" align="top-center"/>
+<attribute name="VALUE" x="46.685528125" y="41.785528125" size="0.4064" layer="25" font="vector" ratio="12" rot="R45" align="top-center"/>
 </element>
 <element name="TARGET_RESET" library="A_butts" package="DTS-6-SMALL-PADS" value="SPST-NO-TACT6MM-PTH-SMALL-PADS" x="40" y="5" rot="R90"/>
 <element name="IC1" library="A_butts" package="SO14" value="74HC125" x="10" y="45.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="4.526" y="45.5" size="0.6096" layer="25" font="vector" ratio="12" rot="R270" align="bottom-center"/>
-<attribute name="VALUE" x="10" y="45.5" size="0.8128" layer="27" font="vector" ratio="12" rot="R180" align="center"/>
+<attribute name="VALUE" x="10" y="45.5" size="0.8128" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 </element>
 <element name="IC6" library="A_butts" package="SO14" value="74HC125" x="41" y="35.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="35.426" y="35.5" size="0.6096" layer="25" font="vector" ratio="12" rot="R270" align="bottom-center"/>
-<attribute name="VALUE" x="41" y="35.5" size="0.8128" layer="27" font="vector" ratio="12" rot="R180" align="center"/>
+<attribute name="VALUE" x="41" y="35.5" size="0.8128" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 </element>
 <element name="IC3" library="A_butts" package="SO14" value="74HC125" x="10" y="25.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="4.526" y="25.5" size="0.6096" layer="25" font="vector" ratio="12" rot="R270" align="bottom-center"/>
-<attribute name="VALUE" x="10" y="25.5" size="0.8128" layer="27" font="vector" ratio="12" rot="R180" align="center"/>
+<attribute name="VALUE" x="10" y="25.5" size="0.8128" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 </element>
 <element name="IC2" library="A_butts" package="SO14" value="74HC125" x="10" y="35.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="4.526" y="35.5" size="0.6096" layer="25" font="vector" ratio="12" rot="R270" align="bottom-center"/>
-<attribute name="VALUE" x="10" y="35.5" size="0.8128" layer="27" font="vector" ratio="12" rot="R180" align="center"/>
+<attribute name="VALUE" x="10" y="35.5" size="0.8128" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 </element>
 <element name="IC4" library="A_butts" package="SO14" value="74HC125" x="10" y="15.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="4.526" y="15.5" size="0.6096" layer="25" font="vector" ratio="12" rot="R270" align="bottom-center"/>
-<attribute name="VALUE" x="10" y="15.5" size="0.8128" layer="27" font="vector" ratio="12" rot="R180" align="center"/>
+<attribute name="VALUE" x="10" y="15.5" size="0.8128" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 </element>
 <element name="IC5" library="A_butts" package="SO14" value="74HC125" x="41" y="25.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="35.526" y="25.5" size="0.6096" layer="25" font="vector" ratio="12" rot="R270" align="bottom-center"/>
-<attribute name="VALUE" x="41" y="25.5" size="0.8128" layer="27" font="vector" ratio="12" rot="R180" align="center"/>
+<attribute name="VALUE" x="41" y="25.5" size="0.8128" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 </element>
-<element name="C5" library="A_butts" package="C025-024X044" value="1uF" x="47" y="24.2" rot="R90"/>
-<element name="C6" library="A_butts" package="C025-024X044" value="0.1uF" x="47" y="35.5" rot="R90"/>
-<element name="C7" library="A_butts" package="C025-024X044" value="1uF" x="1.65" y="6.5" rot="R270"/>
+<element name="C5" library="A_butts" package="C025-024X044" value="1uF" x="47" y="24.2" smashed="yes" rot="R90">
+<attribute name="NAME" x="47" y="21.914" size="0.4064" layer="25" font="vector" ratio="12" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="47" y="26.486" size="0.4064" layer="25" font="vector" ratio="12" align="bottom-center"/>
+</element>
+<element name="C6" library="A_butts" package="C025-024X044" value="0.1uF" x="47" y="35.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="47" y="33.214" size="0.4064" layer="25" font="vector" ratio="12" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="47" y="37.786" size="0.4064" layer="25" font="vector" ratio="12" align="bottom-center"/>
+</element>
+<element name="C7" library="A_butts" package="C025-024X044" value="1uF" x="1.65" y="6.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="1.65" y="8.786" size="0.4064" layer="25" font="vector" ratio="12" align="bottom-center"/>
+<attribute name="VALUE" x="1.65" y="4.214" size="0.4064" layer="25" font="vector" ratio="12" rot="R180" align="bottom-center"/>
+</element>
 <element name="U$1" library="A_butts" package="CC-BY-SA-4.0-NO-URL" value="" x="43.5" y="18.5" rot="R90"/>
 <element name="U$2" library="A_butts" package="OSHWLOGO_TOP_0.2_A" value="" x="43.5" y="12.5" rot="R90"/>
 </elements>
