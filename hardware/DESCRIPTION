@@ -1,3 +1,17 @@
 <h1>AVR "ZIFfy" ISP Shield</h1>
 <p>Riff on the version(s) from SparkFun, EvilMadScientist, and my own insane ideas while trying to learn to use EAGLE.</p>
+
+<ul>
+
+<li><b>Revison 5.0</b> - Instead of using separate ZIF sockets, use a ridiculous 6P4T mechanical switch to select which lines go to which pins. Supports programming any AVR via the ISP connector, and the following via the onboard ZIF socket:
+<ul>
+<li>ATTiny 25/45/85
+<li>ATTiny 24/44/84
+<li>ATTiny 2313/4313
+<li>ATMega 328P
+</ul>
+
+</ul>
+
 <p>Licensed under the Creative Commons, version 4.0 ported, attribution & share-alike (CC-4.0-BY-SA).</p>
+
