@@ -8021,7 +8021,7 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <part name="SUPPLY8" library="A_butts" deviceset="VCC" device=""/>
 <part name="AVR_ISP" library="A_butts" deviceset="AVR_SPI_PRG_6" device="PTH-SHROUD" value="AVR_SPI_PRG_6PTH-SHROUD"/>
 <part name="!HOSTRST" library="A_butts" deviceset="M02" device="PTH"/>
-<part name="C3" library="A_butts" deviceset="CAPACITOR-CERAMIC" device="025-024X044" value="0.1uF"/>
+<part name="C3" library="A_butts" deviceset="CAPACITOR-CERAMIC" device="025-024X044" value="1uF"/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="A_butts" deviceset="VCC" device=""/>
 <part name="C4" library="A_butts" deviceset="CAPACITOR-CERAMIC" device="025-024X044" value="0.1uF"/>
