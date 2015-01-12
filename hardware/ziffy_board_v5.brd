@@ -535,13 +535,13 @@ Source: http://www.3M.com/ehpd</description>
 <wire x1="3.81" y1="0.508" x2="3.81" y2="-0.508" width="0.1524" layer="21"/>
 <pad name="1" x="0" y="0" drill="1" diameter="1.8796" shape="octagon" rot="R90"/>
 <pad name="2" x="2.54" y="0" drill="1" diameter="1.8796" shape="octagon" rot="R90"/>
-<text x="-1.3462" y="1.4478" size="0.8128" layer="25" font="vector" ratio="12">&gt;NAME</text>
+<text x="-1.3462" y="1.4478" size="0.5" layer="25" font="vector" ratio="12">&gt;NAME</text>
 </package>
 <package name="RESISTOR-AXIAL-PTH-6.35MM">
 <pad name="P$1" x="-3.175" y="0" drill="0.9" diameter="1.6764" shape="octagon"/>
 <pad name="P$2" x="3.175" y="0" drill="0.9" diameter="1.6764" shape="octagon"/>
-<text x="-4.191" y="0" size="0.6096" layer="25" font="vector" ratio="12" rot="R90" align="bottom-center">&gt;NAME</text>
-<text x="4.191" y="0" size="0.6096" layer="27" font="vector" ratio="12" rot="R90" align="top-center">&gt;VALUE</text>
+<text x="-4.191" y="0" size="0.4" layer="25" font="vector" ratio="12" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="4.191" y="0" size="0.4" layer="27" font="vector" ratio="12" rot="R90" align="top-center">&gt;VALUE</text>
 <wire x1="-2.159" y1="0" x2="-1.143" y2="0" width="0.1524" layer="21"/>
 <wire x1="-0.9525" y1="-0.508" x2="-0.5715" y2="0.508" width="0.1524" layer="21"/>
 <wire x1="-0.5715" y1="0.508" x2="-0.1905" y2="-0.508" width="0.1524" layer="21"/>
@@ -1566,26 +1566,34 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 </signals>
 <errors>
+<approved hash="18,29,320d3fbbc0c4cd02"/>
 <approved hash="18,29,80a0825d7f5e7fa7"/>
 <approved hash="18,29,001c1f17a08c163c"/>
-<approved hash="18,29,950f9ec463c76c0c"/>
-<approved hash="18,29,ea03188a9e6a9a7d"/>
-<approved hash="18,29,320d3fbbc0c4cd02"/>
 <approved hash="18,29,ebbfcbc21146b3bf"/>
 <approved hash="18,29,e6716877a301ee34"/>
+<approved hash="18,29,950f9ec463c76c0c"/>
+<approved hash="18,29,ea03188a9e6a9a7d"/>
 <approved hash="18,29,69766b23942c9875"/>
 <approved hash="18,29,4c71a37b8ca48c1c"/>
 <approved hash="18,29,9377f955f95138c1"/>
 <approved hash="18,29,eee350f9f23dc025"/>
 <approved hash="18,29,b814e60c18c01ade"/>
 <approved hash="18,29,9091e57c4bc18584"/>
-<approved hash="18,29,01807d46cf8b4fca"/>
-<approved hash="18,29,e1cd12832e2d00a2"/>
 <approved hash="18,29,a116843a77c731e2"/>
 <approved hash="18,29,9cd7740264485f54"/>
 <approved hash="18,29,59a5642a9d23a0ac"/>
-<approved hash="18,29,4c4e58b3a9bab343"/>
 <approved hash="18,29,b770bfe540e84a71"/>
+<approved hash="18,29,4c4e58b3a9bab343"/>
+<approved hash="18,29,01807d46cf8b4fca"/>
+<approved hash="18,29,e1cd12832e2d00a2"/>
+<approved hash="18,30,0dfa8d4e038800da"/>
+<approved hash="18,30,7205123a4c9c2953"/>
+<approved hash="18,30,3ad552f40a8e9a7f"/>
+<approved hash="18,30,5aa9a843300a4815"/>
+<approved hash="18,30,8bf57b70ad3fa93f"/>
+<approved hash="18,30,7af7c6f0682413e8"/>
+<approved hash="18,30,c4494a0d5ab4721e"/>
+<approved hash="18,30,739435546606350f"/>
 </errors>
 </board>
 </drawing>
